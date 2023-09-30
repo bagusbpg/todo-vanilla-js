@@ -1,0 +1,14 @@
+export const config = {
+    app: {
+        port: 8000,
+        shutdownTimeout: 10000
+    },
+    db: {
+        host: "dummyHost",
+        user: "dummyUser",
+        password: "dummyPassword",
+        database: "dummyDatabase",
+        connectionLimit: 10,
+        maxIdle: 10
+    }
+};
